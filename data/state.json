@@ -1,1 +1,1029 @@
-{"resources": {}, "sources": {}}
+{
+  "billing": {
+    "2026-04": 5.038795736851171,
+    "2026-05": 4.187511142343283,
+    "2026-06": 5.887841653777286,
+    "2026-08": 2.827683267998509,
+    "2026-09": 37.546506674654665,
+    "2026-10": 102.71245165989967
+  },
+  "resources": {
+    "046344449cda7089a9fb989d": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-07T11:26:33Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-07T14:02:36Z"
+        }
+      ],
+      "gpu_spend": 2.8348729256540537,
+      "provider": "runpod",
+      "running": false
+    },
+    "053145c9f74b4693041a892f": {
+      "events": [
+        {
+          "action": "stop",
+          "at": "2026-10-25T12:14:21Z"
+        }
+      ],
+      "gpu_spend": 0.0,
+      "provider": "runpod",
+      "running": false
+    },
+    "0622b4e1b4ea4c8a4ac5c230": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-30T04:24:08Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-30T06:00:38Z"
+        }
+      ],
+      "gpu_spend": 3.152152568101883,
+      "provider": "runpod",
+      "running": false
+    },
+    "06e60349a68c05d101ae1fbb": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-13T07:20:29Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-13T07:23:56Z"
+        }
+      ],
+      "gpu_spend": 0.012687094509601593,
+      "provider": "runpod",
+      "running": false
+    },
+    "09a516a52e568be763445535": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-28T09:43:13Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-28T11:14:28Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-28T11:17:34Z"
+        }
+      ],
+      "gpu_spend": 1.3536074310541153,
+      "provider": "runpod",
+      "running": false
+    },
+    "0a949539b62059f5624289a0": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-28T09:24:10Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-28T10:12:35Z"
+        }
+      ],
+      "gpu": "A100 SXM 80GB",
+      "gpu_count": 2,
+      "gpu_spend": 2.566078942269087,
+      "historical_gpu_rate": 3.18,
+      "project": "gemma",
+      "provider": "runpod",
+      "region": "US-MD-1",
+      "running": false
+    },
+    "0bb575f2cfcf6f1a61c615a5": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-15T11:38:43Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-15T13:43:50Z"
+        }
+      ],
+      "gpu_spend": 1.0217157397419214,
+      "provider": "runpod",
+      "running": false
+    },
+    "107fdd4dc31f69fa29e37601": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-23T03:58:26Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-23T06:00:27Z"
+        }
+      ],
+      "gpu_spend": 3.2336846068501472,
+      "provider": "runpod",
+      "running": false
+    },
+    "128e9f0b99c3984a2978431d": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-25T06:48:47Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-25T13:02:21Z"
+        }
+      ],
+      "gpu": "L4",
+      "gpu_count": 4,
+      "gpu_spend": 12.203394535928965,
+      "historical_gpu_rate": 1.96,
+      "project": "gemma",
+      "provider": "runpod",
+      "region": "US-MO-2",
+      "running": false
+    },
+    "1409aa7280b10085984b4022": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-08-23T08:02:43Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-08-23T08:36:14Z"
+        }
+      ],
+      "gpu_spend": 0.24585317634046078,
+      "provider": "runpod",
+      "running": false
+    },
+    "17a52894652e222d3590f3a6": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-23T12:12:12Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-23T13:22:56Z"
+        }
+      ],
+      "gpu_spend": 1.8745888005942106,
+      "provider": "runpod",
+      "running": false
+    },
+    "18b674428003239794abc276": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-14T04:04:41Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-14T04:29:25Z"
+        }
+      ],
+      "gpu_spend": 0.3669863063842058,
+      "provider": "runpod",
+      "running": false
+    },
+    "1df5600e6d3572cbbce5bd6b": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-19T16:12:24Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-19T16:28:59Z"
+        }
+      ],
+      "gpu_spend": 0.4395391531288624,
+      "provider": "runpod",
+      "running": false
+    },
+    "20944575978d8c3def724cb7": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-25T13:10:05Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-25T15:15:58Z"
+        }
+      ],
+      "gpu": "A100 SXM 80GB",
+      "gpu_count": 1,
+      "gpu_spend": 3.755366303026676,
+      "historical_gpu_rate": 1.79,
+      "project": "gemma",
+      "provider": "runpod",
+      "running": false
+    },
+    "2311ee994adb1d93a96ac923": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-19T18:21:53Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-19T18:31:26Z"
+        }
+      ],
+      "gpu_spend": 0.25306881219148636,
+      "provider": "runpod",
+      "running": false
+    },
+    "25d0aae0e05ca494bda7818b": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-15T17:41:06Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-15T19:14:27Z"
+        }
+      ],
+      "gpu_spend": 0.7623809236101806,
+      "provider": "runpod",
+      "running": false
+    },
+    "262d1c20ca9bedfd4740d4e3": {
+      "events": [
+        {
+          "action": "stop",
+          "at": "2026-10-05T07:12:51Z"
+        }
+      ],
+      "gpu_spend": 0.0,
+      "provider": "runpod",
+      "running": false
+    },
+    "2d1773e4208c1454fb336905": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-19T17:23:16Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-19T17:28:34Z"
+        }
+      ],
+      "gpu_spend": 0.14044690504670143,
+      "provider": "runpod",
+      "running": false
+    },
+    "2e66cb9e13f7f298eb40689d": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-28T11:44:51Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-28T11:46:26Z"
+        }
+      ],
+      "gpu_spend": 0.023539016430731863,
+      "provider": "runpod",
+      "running": false
+    },
+    "364980643b495730ec8ab019": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-22T19:23:31Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-22T19:36:49Z"
+        }
+      ],
+      "gpu_spend": 0.35259531741030514,
+      "provider": "runpod",
+      "running": false
+    },
+    "3b3a569ca05142c0826be0fb": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-08-20T17:07:09Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-08-20T17:43:14Z"
+        }
+      ],
+      "gpu_spend": 0.8357683941721916,
+      "provider": "runpod",
+      "running": false
+    },
+    "3b3dea04a69d8234772f5e09": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-06-18T16:55:26Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-06-18T16:57:45Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-06-18T16:58:02Z"
+        }
+      ],
+      "gpu_spend": 0.12641459703445435,
+      "provider": "runpod",
+      "running": false
+    },
+    "3eae4c0ff4d2d7b5196141d1": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-20T05:54:43Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-20T06:01:34Z"
+        }
+      ],
+      "gpu_spend": 0.18168002367019653,
+      "provider": "runpod",
+      "running": false
+    },
+    "40067020d4a1230e92ad94ae": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-27T10:28:55Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-27T16:14:44Z"
+        }
+      ],
+      "gpu": "A100 SXM 80GB",
+      "gpu_count": 1,
+      "gpu_spend": 10.316661484539509,
+      "historical_gpu_rate": 1.79,
+      "project": "gemma",
+      "provider": "runpod",
+      "running": false
+    },
+    "41851862eea09dba9255130e": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-05-31T11:31:56Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-05-31T13:07:25Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-05-31T13:08:01Z"
+        }
+      ],
+      "gpu_spend": 3.326096832752228,
+      "provider": "runpod",
+      "running": false
+    },
+    "507722e418d3b84609e7f61e": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-13T07:12:43Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-13T07:20:09Z"
+        }
+      ],
+      "gpu_spend": 0.027269489131867886,
+      "provider": "runpod",
+      "running": false
+    },
+    "565b8a6ed9252e7b3a2c0b8f": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-05-30T10:40:36Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-05-30T10:56:17Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-05-30T10:56:36Z"
+        }
+      ],
+      "gpu_spend": 0.8527569025754929,
+      "provider": "runpod",
+      "running": false
+    },
+    "569a0654611158bd37b4244c": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-18T12:27:13Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-18T13:22:58Z"
+        }
+      ],
+      "gpu_spend": 4.914881698787212,
+      "provider": "runpod",
+      "running": false
+    },
+    "5a5221b0ccfac2b43e8f4210": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-08-27T16:33:29Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-08-27T17:37:57Z"
+        }
+      ],
+      "gpu_spend": 0.4728044467046857,
+      "provider": "runpod",
+      "running": false
+    },
+    "6475e96af1919066392b72c4": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-13T09:17:48Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-13T11:25:18Z"
+        }
+      ],
+      "gpu_spend": 1.5724636279046535,
+      "provider": "runpod",
+      "running": false
+    },
+    "66caa61710c30044ed0de78c": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-15T17:36:45Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-15T17:41:04Z"
+        }
+      ],
+      "gpu_spend": 0.035247061285190284,
+      "provider": "runpod",
+      "running": false
+    },
+    "6c1b9a2c1c4b418164f66cee": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-08-21T22:50:37Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-08-21T23:42:51Z"
+        }
+      ],
+      "gpu_spend": 0.38312413124367595,
+      "provider": "runpod",
+      "running": false
+    },
+    "6ce5c3ef84acb05a46d571b3": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-15T16:43:09Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-15T17:21:47Z"
+        }
+      ],
+      "gpu_spend": 0.31551481410861015,
+      "provider": "runpod",
+      "running": false
+    },
+    "71d776ed0c941556cea7567b": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-18T13:04:23Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-18T15:09:58Z"
+        }
+      ],
+      "gpu_spend": 3.746714137494564,
+      "provider": "runpod",
+      "running": false
+    },
+    "7209f4613e66bc7d4675b21f": {
+      "events": [
+        {
+          "action": "stop",
+          "at": "2026-09-28T12:49:09Z"
+        }
+      ],
+      "gpu_spend": 0.0,
+      "provider": "runpod",
+      "running": false
+    },
+    "76dae8fd2f81c6a5cec6acca": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-08-28T17:02:15Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-08-28T18:02:50Z"
+        }
+      ],
+      "gpu_spend": 0.4442381765693426,
+      "provider": "runpod",
+      "running": false
+    },
+    "7baa0cdf945c10cde744b21e": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-14T16:11:39Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-14T18:28:02Z"
+        }
+      ],
+      "gpu_spend": 1.1138209151104093,
+      "provider": "runpod",
+      "running": false
+    },
+    "7c4acfc2ea8797086059fcb9": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-22T18:05:39Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-22T18:44:43Z"
+        }
+      ],
+      "gpu_spend": 1.035034328699112,
+      "provider": "runpod",
+      "running": false
+    },
+    "7d10e26635bc006762a6668e": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-06T08:52:50Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-06T17:21:32Z"
+        }
+      ],
+      "gpu_spend": 4.154344007372856,
+      "provider": "runpod",
+      "running": false
+    },
+    "821b121b14f67e2ed35c70ee": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-08-21T15:56:55Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-08-21T16:31:44Z"
+        }
+      ],
+      "gpu_spend": 0.2553938440978527,
+      "provider": "runpod",
+      "running": false
+    },
+    "8b2813ee57e267a2c7f1ca48": {
+      "events": [
+        {
+          "action": "stop",
+          "at": "2026-10-25T13:36:41Z"
+        }
+      ],
+      "gpu_spend": 0.0,
+      "provider": "runpod",
+      "running": false
+    },
+    "8d389e381bf7346a3baeb76b": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-06-07T15:43:41Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-06-07T17:18:24Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-06-07T17:18:38Z"
+        }
+      ],
+      "gpu_spend": 3.299271075055003,
+      "provider": "runpod",
+      "running": false
+    },
+    "9356f02173a33ddba88b165c": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-04T05:25:00Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-04T07:06:24Z"
+        }
+      ],
+      "gpu_spend": 2.6871715784072876,
+      "provider": "runpod",
+      "running": false
+    },
+    "9997350bfe4aa40415ae6adf": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-18T11:56:47Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-18T14:23:52Z"
+        }
+      ],
+      "gpu_spend": 4.3880234360694885,
+      "provider": "runpod",
+      "running": false
+    },
+    "99a3d509bc1c92afe747ef12": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-27T10:51:41Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-27T12:43:54Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-27T12:44:30Z"
+        }
+      ],
+      "gpu_spend": 1.6645712107419968,
+      "provider": "runpod",
+      "running": false
+    },
+    "a7a510ade31865db440e3a8b": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-18T11:19:11Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-18T12:29:28Z"
+        }
+      ],
+      "gpu_spend": 6.197699397802353,
+      "provider": "runpod",
+      "running": false
+    },
+    "afef8c43517e55e059b6e1a7": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-29T07:58:30Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-29T08:31:40Z"
+        }
+      ],
+      "gpu_spend": 2.537649095058441,
+      "provider": "runpod",
+      "running": false
+    },
+    "b15eb29a05ef3f18ecf398af": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-04-05T11:28:31Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-04-05T12:42:44Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-04-05T12:42:48Z"
+        }
+      ],
+      "gpu_spend": 3.327803462743759,
+      "provider": "runpod",
+      "running": false
+    },
+    "b426925b8e7b9c77a8b17065": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-05T04:03:44Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-05T04:58:52Z"
+        }
+      ],
+      "gpu_spend": 1.461206041276455,
+      "provider": "runpod",
+      "running": false
+    },
+    "b533727ba1576c827fbcd9ee": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-18T11:56:46Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-18T14:44:45Z"
+        }
+      ],
+      "gpu_spend": 5.011625625193119,
+      "provider": "runpod",
+      "running": false
+    },
+    "b56774b1255958c68d32ba52": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-28T09:07:40Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-28T11:04:13Z"
+        }
+      ],
+      "gpu_spend": 3.477275900542736,
+      "provider": "runpod",
+      "running": false
+    },
+    "b8b1b0d2557d98ea52ff004d": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-06-19T17:32:37Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-06-19T18:16:55Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-06-19T18:16:59Z"
+        }
+      ],
+      "gpu_spend": 2.4072948694229126,
+      "provider": "runpod",
+      "running": false
+    },
+    "b9cb30450681e2a46262d2a7": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-28T07:52:04Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-28T08:51:21Z"
+        }
+      ],
+      "gpu_spend": 0.8793232068419456,
+      "provider": "runpod",
+      "running": false
+    },
+    "c255d99ec9111b14961e6865": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-15T04:33:58Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-15T11:43:16Z"
+        }
+      ],
+      "gpu": "L4",
+      "gpu_count": 4,
+      "gpu_spend": 16.88573782145977,
+      "historical_gpu_rate": 2.36,
+      "project": "gemma",
+      "provider": "runpod",
+      "region": "US-MO-2",
+      "running": false
+    },
+    "cf1e68cff07d45b57b4e358a": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-09-26T13:03:45Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-09-26T15:31:51Z"
+        }
+      ],
+      "gpu": "A100 SXM 80GB",
+      "gpu_count": 1,
+      "gpu_spend": 3.92465571493085,
+      "historical_gpu_rate": 1.59,
+      "project": "gemma",
+      "provider": "runpod",
+      "running": false
+    },
+    "d59c2ff1f22b1ce75d400928": {
+      "events": [
+        {
+          "action": "stop",
+          "at": "2026-09-27T18:32:42Z"
+        }
+      ],
+      "gpu_spend": 0.0,
+      "provider": "runpod",
+      "running": false
+    },
+    "e1a714c6def0df36637444b0": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-05T09:46:55Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-05T11:16:03Z"
+        }
+      ],
+      "gpu_spend": 6.81919851899147,
+      "provider": "runpod",
+      "running": false
+    },
+    "e4dc4a4c04a164f53c310564": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-06T09:20:20Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-06T14:19:47Z"
+        }
+      ],
+      "gpu_spend": 2.445516242645681,
+      "provider": "runpod",
+      "running": false
+    },
+    "e554f98df8b269eae48f2ee6": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-08-23T08:02:14Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-08-23T08:02:26Z"
+        }
+      ],
+      "gpu_spend": 0.0014531000051647425,
+      "provider": "runpod",
+      "running": false
+    },
+    "e5b186d251ca303f2f161744": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-26T11:43:40Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-26T14:15:11Z"
+        }
+      ],
+      "gpu": "A100 SXM 80GB",
+      "gpu_count": 1,
+      "gpu_spend": 4.520569935441017,
+      "historical_gpu_rate": 1.79,
+      "project": "gemma",
+      "provider": "runpod",
+      "region": "US-MD-1",
+      "running": false
+    },
+    "e820d25a9dd782e3dbe75035": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-28T06:39:31Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-28T09:05:18Z"
+        }
+      ],
+      "gpu_spend": 12.853324592113495,
+      "provider": "runpod",
+      "running": false
+    },
+    "e87e6ee94d89e446a72d5218": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-04-04T17:19:42Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-04-04T17:57:16Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-04-04T18:00:22Z"
+        }
+      ],
+      "gpu_spend": 1.684371903538704,
+      "provider": "runpod",
+      "running": false
+    },
+    "ee856f20ead03f7e81103d96": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-08-23T08:45:40Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-08-23T09:01:44Z"
+        }
+      ],
+      "gpu_spend": 0.11786744277924299,
+      "provider": "runpod",
+      "running": false
+    },
+    "fa1349a95dbbb4334a0811d1": {
+      "events": [
+        {
+          "action": "stop",
+          "at": "2026-09-28T10:53:48Z"
+        }
+      ],
+      "gpu_spend": 0.0,
+      "provider": "runpod",
+      "running": false
+    }
+  },
+  "sources": {
+    "aws": {
+      "status": "not configured"
+    },
+    "kaggle": {
+      "status": "not configured"
+    },
+    "runpod": {
+      "as_of": "2026-10-29T09:46:12.029128+00:00",
+      "basis": "[sourced] REST v2; lifecycle hours are [inference]",
+      "status": "ok"
+    }
+  }
+}

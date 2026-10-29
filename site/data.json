@@ -1,8 +1,35 @@
 {
   "breakdowns": {
-    "gpu": [],
-    "project": [],
-    "region": []
+    "gpu": [
+      {
+        "hours": 53.524,
+        "label": "L4"
+      },
+      {
+        "hours": 14.469,
+        "label": "A100 SXM 80GB"
+      }
+    ],
+    "project": [
+      {
+        "hours": 67.994,
+        "label": "gemma"
+      }
+    ],
+    "region": [
+      {
+        "hours": 53.524,
+        "label": "US-MO-2"
+      },
+      {
+        "hours": 10.33,
+        "label": "unknown"
+      },
+      {
+        "hours": 4.139,
+        "label": "US-MD-1"
+      }
+    ]
   },
   "constants": {
     "checked_at": "2026-10-29",
@@ -83,7 +110,7 @@
       "value": 1.0
     }
   },
-  "generated_at": "2026-10-29T00:00:00+00:00",
+  "generated_at": "2026-10-29T09:46:12.029128+00:00",
   "kaggle": null,
   "limitations": [
     "Spend covers RunPod only; AWS billing is not collected.",
@@ -93,32 +120,89 @@
     "Create/start/stop requests can differ from actual runtime; missing events and retention gaps reduce coverage.",
     "Kaggle quota-hours are separate from physical GPU-hours and are not added to lifetime totals."
   ],
-  "longest_runs": [],
-  "mode": "offline handoff summary \u2014 not an API capture",
+  "longest_runs": [
+    {
+      "basis": "lifecycle estimate",
+      "gpu": "L4",
+      "hours": 7.155,
+      "project": "gemma",
+      "provider": "runpod",
+      "region": "US-MO-2"
+    },
+    {
+      "basis": "lifecycle estimate",
+      "gpu": "L4",
+      "hours": 6.226,
+      "project": "gemma",
+      "provider": "runpod",
+      "region": "US-MO-2"
+    },
+    {
+      "basis": "lifecycle estimate",
+      "gpu": "A100 SXM 80GB",
+      "hours": 5.764,
+      "project": "gemma",
+      "provider": "runpod",
+      "region": "unknown"
+    },
+    {
+      "basis": "lifecycle estimate",
+      "gpu": "A100 SXM 80GB",
+      "hours": 2.525,
+      "project": "gemma",
+      "provider": "runpod",
+      "region": "US-MD-1"
+    },
+    {
+      "basis": "lifecycle estimate",
+      "gpu": "A100 SXM 80GB",
+      "hours": 2.468,
+      "project": "gemma",
+      "provider": "runpod",
+      "region": "unknown"
+    },
+    {
+      "basis": "lifecycle estimate",
+      "gpu": "A100 SXM 80GB",
+      "hours": 2.098,
+      "project": "gemma",
+      "provider": "runpod",
+      "region": "unknown"
+    },
+    {
+      "basis": "lifecycle estimate",
+      "gpu": "A100 SXM 80GB",
+      "hours": 0.807,
+      "project": "gemma",
+      "provider": "runpod",
+      "region": "US-MD-1"
+    }
+  ],
+  "mode": "live collection",
   "monthly_spend": [
     {
       "month": "2026-04",
-      "usd": 5.04
+      "usd": 5.0388
     },
     {
       "month": "2026-05",
-      "usd": 4.19
+      "usd": 4.1875
     },
     {
       "month": "2026-06",
-      "usd": 5.89
+      "usd": 5.8878
     },
     {
       "month": "2026-08",
-      "usd": 2.83
+      "usd": 2.8277
     },
     {
       "month": "2026-09",
-      "usd": 37.55
+      "usd": 37.5465
     },
     {
       "month": "2026-10",
-      "usd": 102.71
+      "usd": 102.7125
     }
   ],
   "schema_version": 1,
@@ -130,18 +214,18 @@
       "status": "not configured"
     },
     "runpod": {
-      "as_of": "2026-10-29T00:00:00Z",
-      "basis": "[sourced] User handoff dated 2026-10-29, not independently verified API capture. Monthly rounded amounts sum to $158.21; stated aggregate is $158.20. July absent, not assumed zero. 49 pods reported for Sep-Oct but no per-pod fixture supplied.",
-      "status": "handoff only"
+      "as_of": "2026-10-29T09:46:12.029128+00:00",
+      "basis": "[sourced] REST v2; lifecycle hours are [inference]",
+      "status": "ok"
     }
   },
   "totals": {
-    "carbon_covered_gpu_hours": 0.0,
-    "gpu_hours_estimate": null,
-    "kgco2e_estimate": null,
-    "resources_without_hours": 0,
-    "running": null,
-    "runpod_pods_observed": 0,
-    "spend_usd_known": 158.21
+    "carbon_covered_gpu_hours": 57.664,
+    "gpu_hours_estimate": 67.994,
+    "kgco2e_estimate": 1.9265,
+    "resources_without_hours": 57,
+    "running": 0,
+    "runpod_pods_observed": 64,
+    "spend_usd_known": 158.2
   }
 }
