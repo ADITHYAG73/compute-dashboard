@@ -5,10 +5,10 @@
     "2026-06": 5.887841653777286,
     "2026-08": 2.827683267998509,
     "2026-09": 37.546506674654665,
-    "2026-10": 122.4845307492069
+    "2026-10": 134.43739760079188
   },
   "kaggle": {
-    "as_of": "2026-10-29T16:53:34.474998+00:00",
+    "as_of": "2026-10-29T21:45:16.657791+00:00",
     "basis": "[sourced] Kaggle weekly quota; not physical GPU-hours",
     "refresh_at": "2026-10-31T00:00:00",
     "remaining_hours": 0,
@@ -322,7 +322,7 @@
           "at": "2026-10-29T16:51:26Z"
         }
       ],
-      "gpu_spend": 13.804997026920319,
+      "gpu_spend": 19.094055138062686,
       "provider": "runpod",
       "running": false
     },
@@ -668,6 +668,21 @@
       "provider": "runpod",
       "running": false
     },
+    "89656d2f26f6ce6bc194a45b": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-29T19:18:39Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-29T20:34:24Z"
+        }
+      ],
+      "gpu_spend": 2.259548343718052,
+      "provider": "runpod",
+      "running": false
+    },
     "8b2813ee57e267a2c7f1ca48": {
       "events": [
         {
@@ -900,16 +915,24 @@
         {
           "action": "start",
           "at": "2026-10-29T16:53:25.168Z"
+        },
+        {
+          "action": "start",
+          "at": "2026-10-29T16:53:25Z"
+        },
+        {
+          "action": "stop",
+          "at": "2026-10-29T19:18:06Z"
         }
       ],
       "gpu": "A100 SXM 80GB",
       "gpu_count": 1,
-      "gpu_spend": 0,
+      "gpu_spend": 4.316644657403231,
       "last_seen_running": "2026-10-29T16:53:34.474998+00:00",
       "project": "gemma4",
       "provider": "runpod",
       "region": "US-MD-1",
-      "running": true
+      "running": false
     },
     "cf1e68cff07d45b57b4e358a": {
       "events": [
@@ -1072,11 +1095,11 @@
       "status": "not configured"
     },
     "kaggle": {
-      "as_of": "2026-10-29T16:53:34.474998+00:00",
+      "as_of": "2026-10-29T21:45:16.657791+00:00",
       "status": "ok"
     },
     "runpod": {
-      "as_of": "2026-10-29T16:53:34.474998+00:00",
+      "as_of": "2026-10-29T21:45:16.657791+00:00",
       "basis": "[sourced] REST v2; lifecycle hours are [inference]",
       "status": "ok"
     }
