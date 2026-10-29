@@ -1,0 +1,147 @@
+{
+  "breakdowns": {
+    "gpu": [],
+    "project": [],
+    "region": []
+  },
+  "constants": {
+    "checked_at": "2026-10-29",
+    "gpus": {
+      "A100 PCIe 80GB": {
+        "date": "2026-10-29",
+        "note": "[sourced] 80GB PCIe model; not interchangeable with SXM or 40GB.",
+        "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-nvidia-us-2188504-web.pdf",
+        "watts": 300
+      },
+      "A100 SXM 80GB": {
+        "date": "2026-10-29",
+        "note": "[sourced] Standard SXM configuration; excludes custom 500 W thermal SKU.",
+        "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-nvidia-us-2188504-web.pdf",
+        "watts": 400
+      },
+      "L4": {
+        "date": "2026-10-29",
+        "note": "[sourced] Maximum/default board power.",
+        "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/l4/PB-11316-001_v01.pdf",
+        "watts": 72
+      },
+      "RTX 4090": {
+        "date": "2026-10-29",
+        "note": "[sourced] NVIDIA TGP; [inference] constant nameplate power, not metered draw.",
+        "url": "https://nvidia.custhelp.com/app/answers/detail/a_id/5396",
+        "watts": 450
+      }
+    },
+    "grids": {
+      "FR": {
+        "date": "2026-10-29",
+        "kg_per_kwh": 0.02,
+        "note": "[sourced] France consumption intensity including exchanges, 20.0 gCO2e/kWh; direct operational emissions.",
+        "url": "https://analysesetdonnees.rte-france.com/bilan-electrique-2025/emissions",
+        "year": 2025
+      },
+      "US": {
+        "date": "2026-10-29",
+        "kg_per_kwh": 0.34966710055508005,
+        "note": "[sourced] EPA U.S. national 770.884 lb CO2e/MWh, converted with 0.45359237 / 1000. [inference] Coarse national fallback for explicitly mapped U.S. facilities; not a measured facility or state intensity.",
+        "url": "https://www.epa.gov/egrid/summary-data",
+        "year": 2023
+      },
+      "US-CAMX": {
+        "date": "2026-10-29",
+        "kg_per_kwh": 0.19503700802971,
+        "note": "[sourced] EPA CAMX 429.983 lb CO2e/MWh; multiply by 0.45359237 / 1000. Assign only after verifying facility grid.",
+        "url": "https://www.epa.gov/egrid/summary-data",
+        "year": 2023
+      },
+      "US-ERCT": {
+        "date": "2026-10-29",
+        "kg_per_kwh": 0.33412929392073,
+        "note": "[sourced] EPA ERCT 736.629 lb CO2e/MWh; multiply by 0.45359237 / 1000. Assign only after verifying facility grid.",
+        "url": "https://www.epa.gov/egrid/summary-data",
+        "year": 2023
+      }
+    },
+    "methodology": [
+      {
+        "note": "[sourced] Lacoste et al. 2019; hardware, runtime and grid based approximation.",
+        "url": "https://arxiv.org/pdf/1910.09700"
+      },
+      {
+        "note": "[sourced] Calculator excludes PUE by default and instructs users to multiply by facility PUE.",
+        "url": "https://mlco2.github.io/impact/"
+      },
+      {
+        "note": "[sourced] Authors' implementation; historical reference, not a current grid-factor authority.",
+        "url": "https://github.com/mlco2/impact"
+      }
+    ],
+    "pue": {
+      "date": "2026-10-29",
+      "note": "[inference] GPU-only baseline, no facility overhead assumed. Actual PUE is unknown. Replace with a documented facility-specific value before claiming facility emissions.",
+      "url": "https://mlco2.github.io/impact/",
+      "value": 1.0
+    }
+  },
+  "generated_at": "2026-10-29T00:00:00+00:00",
+  "kaggle": null,
+  "limitations": [
+    "Spend covers RunPod only; AWS billing is not collected.",
+    "GPU-hours are partial allocation estimates, not measured utilization.",
+    "Unknown hardware, GPU count, runtime or grid factors are never filled with zero.",
+    "Carbon covers only matched GPU-hours; CPU, RAM, storage, manufacturing and offsets are excluded.",
+    "Create/start/stop requests can differ from actual runtime; missing events and retention gaps reduce coverage.",
+    "Kaggle quota-hours are separate from physical GPU-hours and are not added to lifetime totals."
+  ],
+  "longest_runs": [],
+  "mode": "offline handoff summary \u2014 not an API capture",
+  "monthly_spend": [
+    {
+      "month": "2026-04",
+      "usd": 5.04
+    },
+    {
+      "month": "2026-05",
+      "usd": 4.19
+    },
+    {
+      "month": "2026-06",
+      "usd": 5.89
+    },
+    {
+      "month": "2026-08",
+      "usd": 2.83
+    },
+    {
+      "month": "2026-09",
+      "usd": 37.55
+    },
+    {
+      "month": "2026-10",
+      "usd": 102.71
+    }
+  ],
+  "schema_version": 1,
+  "sources": {
+    "aws": {
+      "status": "not configured"
+    },
+    "kaggle": {
+      "status": "not configured"
+    },
+    "runpod": {
+      "as_of": "2026-10-29T00:00:00Z",
+      "basis": "[sourced] User handoff dated 2026-10-29, not independently verified API capture. Monthly rounded amounts sum to $158.21; stated aggregate is $158.20. July absent, not assumed zero. 49 pods reported for Sep-Oct but no per-pod fixture supplied.",
+      "status": "handoff only"
+    }
+  },
+  "totals": {
+    "carbon_covered_gpu_hours": 0.0,
+    "gpu_hours_estimate": null,
+    "kgco2e_estimate": null,
+    "resources_without_hours": 0,
+    "running": null,
+    "runpod_pods_observed": 0,
+    "spend_usd_known": 158.21
+  }
+}

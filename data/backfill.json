@@ -1,0 +1,65 @@
+{
+  "128e9f0b99c3984a2978431d": {
+    "gpu": "L4",
+    "gpu_count": 4,
+    "region": "US-MO-2",
+    "historical_gpu_rate": 1.96,
+    "project": "gemma",
+    "evidence_date": "2026-09-25",
+    "basis": "[sourced] local operational journal dated 2026-09-25; historical metadata, not current API verification"
+  },
+  "c255d99ec9111b14961e6865": {
+    "gpu": "L4",
+    "gpu_count": 4,
+    "region": "US-MO-2",
+    "historical_gpu_rate": 2.36,
+    "project": "gemma",
+    "evidence_date": "2026-10-15",
+    "basis": "[sourced] local operational journal dated 2026-10-15; historical metadata, not current API verification"
+  },
+  "cf1e68cff07d45b57b4e358a": {
+    "gpu": "A100 SXM 80GB",
+    "gpu_count": 1,
+    "region": null,
+    "historical_gpu_rate": 1.59,
+    "project": "gemma",
+    "evidence_date": "2026-09-26",
+    "basis": "[sourced] local operational journal dated 2026-09-26; historical metadata, not current API verification"
+  },
+  "0a949539b62059f5624289a0": {
+    "gpu": "A100 SXM 80GB",
+    "gpu_count": 2,
+    "region": "US-MD-1",
+    "historical_gpu_rate": 3.18,
+    "project": "gemma",
+    "evidence_date": "2026-09-28",
+    "basis": "[sourced] local operational journal dated 2026-09-28; historical metadata, not current API verification"
+  },
+  "e5b186d251ca303f2f161744": {
+    "gpu": "A100 SXM 80GB",
+    "gpu_count": 1,
+    "region": "US-MD-1",
+    "historical_gpu_rate": 1.79,
+    "project": "gemma",
+    "evidence_date": "2026-10-26",
+    "basis": "[sourced] local operational journal dated 2026-10-26; historical metadata, not current API verification"
+  },
+  "20944575978d8c3def724cb7": {
+    "gpu": "A100 SXM 80GB",
+    "gpu_count": 1,
+    "region": null,
+    "historical_gpu_rate": 1.79,
+    "project": "gemma",
+    "evidence_date": "2026-10-25",
+    "basis": "[sourced] local operational journal dated 2026-10-25; historical metadata, not current API verification"
+  },
+  "40067020d4a1230e92ad94ae": {
+    "gpu": "A100 SXM 80GB",
+    "gpu_count": 1,
+    "region": null,
+    "historical_gpu_rate": 1.79,
+    "project": "gemma",
+    "evidence_date": "2026-10-27",
+    "basis": "[sourced] local operational journal dated 2026-10-27; historical metadata, not current API verification"
+  }
+}

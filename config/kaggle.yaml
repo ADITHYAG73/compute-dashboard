@@ -1,0 +1,6 @@
+# Used only when Kaggle credentials are absent. Dates must be quoted UTC strings.
+# Copy numbers from your account; never assume everyone's quota is 30 hours.
+as_of: null
+refresh_at: null
+used_hours: null
+total_hours: null

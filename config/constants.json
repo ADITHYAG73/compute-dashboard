@@ -1,0 +1,79 @@
+{
+  "checked_at": "2026-10-29",
+  "methodology": [
+    {
+      "url": "https://arxiv.org/pdf/1910.09700",
+      "note": "[sourced] Lacoste et al. 2019; hardware, runtime and grid based approximation."
+    },
+    {
+      "url": "https://mlco2.github.io/impact/",
+      "note": "[sourced] Calculator excludes PUE by default and instructs users to multiply by facility PUE."
+    },
+    {
+      "url": "https://github.com/mlco2/impact",
+      "note": "[sourced] Authors' implementation; historical reference, not a current grid-factor authority."
+    }
+  ],
+  "pue": {
+    "value": 1.0,
+    "date": "2026-10-29",
+    "url": "https://mlco2.github.io/impact/",
+    "note": "[inference] GPU-only baseline, no facility overhead assumed. Actual PUE is unknown. Replace with a documented facility-specific value before claiming facility emissions."
+  },
+  "gpus": {
+    "RTX 4090": {
+      "watts": 450,
+      "date": "2026-10-29",
+      "url": "https://nvidia.custhelp.com/app/answers/detail/a_id/5396",
+      "note": "[sourced] NVIDIA TGP; [inference] constant nameplate power, not metered draw."
+    },
+    "A100 SXM 80GB": {
+      "watts": 400,
+      "date": "2026-10-29",
+      "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-nvidia-us-2188504-web.pdf",
+      "note": "[sourced] Standard SXM configuration; excludes custom 500 W thermal SKU."
+    },
+    "A100 PCIe 80GB": {
+      "watts": 300,
+      "date": "2026-10-29",
+      "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-nvidia-us-2188504-web.pdf",
+      "note": "[sourced] 80GB PCIe model; not interchangeable with SXM or 40GB."
+    },
+    "L4": {
+      "watts": 72,
+      "date": "2026-10-29",
+      "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/l4/PB-11316-001_v01.pdf",
+      "note": "[sourced] Maximum/default board power."
+    }
+  },
+  "grids": {
+    "FR": {
+      "kg_per_kwh": 0.02,
+      "year": 2025,
+      "date": "2026-10-29",
+      "url": "https://analysesetdonnees.rte-france.com/bilan-electrique-2025/emissions",
+      "note": "[sourced] France consumption intensity including exchanges, 20.0 gCO2e/kWh; direct operational emissions."
+    },
+    "US-ERCT": {
+      "kg_per_kwh": 0.33412929392073,
+      "year": 2023,
+      "date": "2026-10-29",
+      "url": "https://www.epa.gov/egrid/summary-data",
+      "note": "[sourced] EPA ERCT 736.629 lb CO2e/MWh; multiply by 0.45359237 / 1000. Assign only after verifying facility grid."
+    },
+    "US-CAMX": {
+      "kg_per_kwh": 0.19503700802971,
+      "year": 2023,
+      "date": "2026-10-29",
+      "url": "https://www.epa.gov/egrid/summary-data",
+      "note": "[sourced] EPA CAMX 429.983 lb CO2e/MWh; multiply by 0.45359237 / 1000. Assign only after verifying facility grid."
+    },
+    "US": {
+      "kg_per_kwh": 0.34966710055508005,
+      "year": 2023,
+      "date": "2026-10-29",
+      "url": "https://www.epa.gov/egrid/summary-data",
+      "note": "[sourced] EPA U.S. national 770.884 lb CO2e/MWh, converted with 0.45359237 / 1000. [inference] Coarse national fallback for explicitly mapped U.S. facilities; not a measured facility or state intensity."
+    }
+  }
+}

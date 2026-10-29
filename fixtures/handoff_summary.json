@@ -1,0 +1,9 @@
+{
+  "billing": {"2026-04": 5.04, "2026-05": 4.19, "2026-06": 5.89, "2026-08": 2.83, "2026-09": 37.55, "2026-10": 102.71},
+  "resources": {},
+  "sources": {
+    "runpod": {"status": "handoff only", "as_of": "2026-10-29T00:00:00Z", "basis": "[sourced] User handoff dated 2026-10-29, not independently verified API capture. Monthly rounded amounts sum to $158.21; stated aggregate is $158.20. July absent, not assumed zero. 49 pods reported for Sep-Oct but no per-pod fixture supplied."},
+    "aws": {"status": "not configured"},
+    "kaggle": {"status": "not configured"}
+  }
+}

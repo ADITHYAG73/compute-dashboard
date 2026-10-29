@@ -1,0 +1,37 @@
+{
+  "billing_start": "2026-04-01T00:00:00Z",
+  "projects": [
+    "gemma4",
+    "gemma",
+    "ntl"
+  ],
+  "aws_regions": [
+    "ap-south-1"
+  ],
+  "regions": [
+    "US-MO-2",
+    "US-MD-1",
+    "US-NC-1",
+    "EU-SE-1",
+    "EU-RO-1",
+    "CA-MTL-3"
+  ],
+  "grid_regions": {
+    "US-MO-2": "US",
+    "US-MD-1": "US",
+    "US-NC-1": "US"
+  },
+  "gpu_aliases": {
+    "NVIDIA GeForce RTX 4090": "RTX 4090",
+    "NVIDIA A100-SXM4-80GB": "A100 SXM 80GB",
+    "NVIDIA A100 80GB PCIe": "A100 PCIe 80GB",
+    "NVIDIA L4": "L4",
+    "L4": "L4",
+    "NVIDIA L40S": "L40S",
+    "L40S": "L40S",
+    "NVIDIA H100 80GB HBM3": "H100 SXM",
+    "A100": "unknown",
+    "H100": "unknown",
+    "H200": "unknown"
+  }
+}

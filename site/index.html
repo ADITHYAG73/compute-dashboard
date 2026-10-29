@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A public field notebook of compute: GPU time, spend, and estimated carbon impact.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'">
+  <title>Compute / A field notebook</title><link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+<header><a class="wordmark" href="#">COMPUTE<span> / FIELD NOTES</span></a><a href="#methodology">How it's counted ↗</a></header>
+<main>
+  <section class="hero"><div><p class="eyebrow">PERSONAL INFRASTRUCTURE · PUBLIC LEDGER</p><h1>Small experiments.<br><em>Real compute.</em></h1><p class="intro">A running account of the machines behind the work.<br>Time, cost, and a little more transparency.</p></div><div class="orbit" aria-hidden="true"><span>GPU</span><i></i><b>h</b></div></section>
+  <div class="statusbar"><span id="running">Checking snapshot…</span><span id="updated">Loading data</span></div>
+  <p id="notice" class="notice" role="status"></p>
+  <section class="metrics" aria-label="Compute totals">
+    <article><p>GPU HOURS <span>EST.</span></p><strong id="hours">—</strong><small>Known allocation time · partial</small></article>
+    <article><p>KNOWN SPEND <span>USD</span></p><strong id="spend">—</strong><small>RunPod billing · AWS excluded</small></article>
+    <article><p>PODS OBSERVED</p><strong id="pods">—</strong><small>Distinct RunPod resources in ledger</small></article>
+    <article><p>CARBON <span>EST.</span></p><strong id="carbon">—</strong><small id="carbon-note">kgCO₂e · matched GPU-hours only</small></article>
+  </section>
+  <section class="panel spend"><div class="section-head"><div><p class="eyebrow">01 / THE BILL</p><h2>Spend over time</h2></div><span>USD · monthly</span></div><div id="spend-chart"></div><p class="footnote">Missing months are gaps, not zero spend. Current month may be incomplete.</p></section>
+  <div class="two-col"><section class="panel"><p class="eyebrow">02 / THE HARDWARE</p><h2>GPU-hours by GPU</h2><div id="gpu-bars"></div></section><section class="panel"><p class="eyebrow">03 / THE WORK</p><h2>GPU-hours by project</h2><div id="project-bars"></div></section></div>
+  <div class="two-col"><section class="panel"><p class="eyebrow">04 / THE FOOTPRINT</p><h2>Where compute happened</h2><div id="region-bars"></div></section><section class="panel quota"><p class="eyebrow">05 / THE WEEK AHEAD</p><h2>Kaggle GPU quota</h2><div id="quota"></div><p class="footnote">Quota-hours are tracked separately from physical GPU-hours. Weekly quota is not lifetime usage.</p></section></div>
+  <section class="panel"><div class="section-head"><div><p class="eyebrow">06 / THE LONG HAUL</p><h2>Longest observed runs</h2></div><span>Wall-clock hours · estimates</span></div><div id="runs" class="table-wrap"></div></section>
+  <section class="panel"><p class="eyebrow">SOURCE HEALTH</p><div id="sources" class="source-grid"></div></section>
+  <section id="methodology" class="methodology"><p class="eyebrow">THE FINE PRINT, UP FRONT</p><h2>Estimates with receipts.</h2><p>We estimate allocated GPU time from lifecycle events or an explicitly recorded historical rate. This is not a measure of productive work or GPU utilization.</p><div class="formula">kWh = GPU-hours × watts ÷ 1,000 × PUE<br>kgCO₂e = kWh × regional kgCO₂e/kWh</div><p>Nameplate power is a proxy for draw. Unknown hardware and unverified grid mappings stay unknown. The default PUE of 1.0 is a GPU-only baseline, excluding facility overhead. Carbon is a partial operational estimate, not a complete footprint.</p><ul id="limitations"></ul><h3>Constants &amp; sources</h3><p>Every value below carries its source and review date. <b>[sourced]</b> identifies evidence; <b>[inference]</b> identifies an assumption or estimate.</p><div id="constants"></div></section>
+</main><footer><span>Built for curiosity. Shared for transparency.</span><a href="data.json">View sanitized data ↗</a></footer>
+</body></html>
