@@ -5,10 +5,10 @@
     "2026-06": 5.887841653777286,
     "2026-08": 2.827683267998509,
     "2026-09": 37.546506674654665,
-    "2026-10": 134.43739760079188
+    "2026-10": 143.3466845623334
   },
   "kaggle": {
-    "as_of": "2026-10-31T05:27:48.729644+00:00",
+    "as_of": "2026-10-31T11:11:01.522389+00:00",
     "basis": "[sourced] Kaggle weekly quota; not physical GPU-hours",
     "refresh_at": "2026-11-07T00:00:00",
     "remaining_hours": 30.0,
@@ -762,6 +762,26 @@
       "provider": "runpod",
       "running": false
     },
+    "a1f7a037c9a85a1cc327da2b": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-10-31T06:26:53.986Z"
+        },
+        {
+          "action": "start",
+          "at": "2026-10-31T06:26:54Z"
+        }
+      ],
+      "gpu": "L4",
+      "gpu_count": 4,
+      "gpu_spend": 8.831161960959435,
+      "last_seen_running": "2026-10-31T11:11:01.522389+00:00",
+      "project": "gemma4",
+      "provider": "runpod",
+      "region": "EUR-IS-1",
+      "running": true
+    },
     "a7a510ade31865db440e3a8b": {
       "events": [
         {
@@ -1095,11 +1115,11 @@
       "status": "not configured"
     },
     "kaggle": {
-      "as_of": "2026-10-31T05:27:48.729644+00:00",
+      "as_of": "2026-10-31T11:11:01.522389+00:00",
       "status": "ok"
     },
     "runpod": {
-      "as_of": "2026-10-31T05:27:48.729644+00:00",
+      "as_of": "2026-10-31T11:11:01.522389+00:00",
       "basis": "[sourced] REST v2; lifecycle hours are [inference]",
       "status": "ok"
     }

@@ -2,7 +2,7 @@
   "breakdowns": {
     "gpu": [
       {
-        "hours": 53.524,
+        "hours": 72.466,
         "label": "L4"
       },
       {
@@ -16,7 +16,7 @@
         "label": "gemma"
       },
       {
-        "hours": 2.411,
+        "hours": 21.353,
         "label": "gemma4"
       }
     ],
@@ -24,6 +24,10 @@
       {
         "hours": 53.524,
         "label": "US-MO-2"
+      },
+      {
+        "hours": 18.942,
+        "label": "EUR-IS-1"
       },
       {
         "hours": 10.33,
@@ -114,9 +118,9 @@
       "value": 1.0
     }
   },
-  "generated_at": "2026-10-31T05:27:48.729644+00:00",
+  "generated_at": "2026-10-31T11:11:01.522389+00:00",
   "kaggle": {
-    "as_of": "2026-10-31T05:27:48.729644+00:00",
+    "as_of": "2026-10-31T11:11:01.522389+00:00",
     "basis": "[sourced] Kaggle weekly quota; not physical GPU-hours",
     "refresh_at": "2026-11-07T00:00:00",
     "remaining_hours": 30.0,
@@ -155,6 +159,14 @@
       "project": "gemma",
       "provider": "runpod",
       "region": "unknown"
+    },
+    {
+      "basis": "lifecycle estimate",
+      "gpu": "L4",
+      "hours": 4.735,
+      "project": "gemma4",
+      "provider": "runpod",
+      "region": "EUR-IS-1"
     },
     {
       "basis": "lifecycle estimate",
@@ -221,7 +233,7 @@
     },
     {
       "month": "2026-10",
-      "usd": 134.4374
+      "usd": 143.3467
     }
   ],
   "schema_version": 1,
@@ -230,22 +242,22 @@
       "status": "not configured"
     },
     "kaggle": {
-      "as_of": "2026-10-31T05:27:48.729644+00:00",
+      "as_of": "2026-10-31T11:11:01.522389+00:00",
       "status": "ok"
     },
     "runpod": {
-      "as_of": "2026-10-31T05:27:48.729644+00:00",
+      "as_of": "2026-10-31T11:11:01.522389+00:00",
       "basis": "[sourced] REST v2; lifecycle hours are [inference]",
       "status": "ok"
     }
   },
   "totals": {
     "carbon_covered_gpu_hours": 60.075,
-    "gpu_hours_estimate": 70.405,
+    "gpu_hours_estimate": 89.347,
     "kgco2e_estimate": 2.2637,
     "resources_without_hours": 60,
-    "running": 0,
-    "runpod_pods_observed": 68,
-    "spend_usd_known": 189.93
+    "running": 1,
+    "runpod_pods_observed": 69,
+    "spend_usd_known": 198.84
   }
 }
