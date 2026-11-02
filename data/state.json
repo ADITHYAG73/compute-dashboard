@@ -8,12 +8,12 @@
     "2026-10": 153.71472107694717
   },
   "kaggle": {
-    "as_of": "2026-11-02T09:21:31.672847+00:00",
+    "as_of": "2026-11-02T19:45:45.203999+00:00",
     "basis": "[sourced] Kaggle weekly quota; not physical GPU-hours",
     "refresh_at": "2026-11-07T00:00:00",
-    "remaining_hours": 25.43498562388889,
+    "remaining_hours": 14.27993611111111,
     "total_hours": 30.0,
-    "used_hours": 4.565014376111111
+    "used_hours": 15.72006388888889
   },
   "resources": {
     "046344449cda7089a9fb989d": {
@@ -1119,11 +1119,11 @@
       "status": "not configured"
     },
     "kaggle": {
-      "as_of": "2026-11-02T09:21:31.672847+00:00",
+      "as_of": "2026-11-02T19:45:45.203999+00:00",
       "status": "ok"
     },
     "runpod": {
-      "as_of": "2026-11-02T09:21:31.672847+00:00",
+      "as_of": "2026-11-02T19:45:45.203999+00:00",
       "basis": "[sourced] REST v2; lifecycle hours are [inference]",
       "status": "ok"
     }
