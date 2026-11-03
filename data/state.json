@@ -5,10 +5,11 @@
     "2026-06": 5.887841653777286,
     "2026-08": 2.827683267998509,
     "2026-09": 37.546506674654665,
-    "2026-10": 153.71472107694717
+    "2026-10": 153.71472107694717,
+    "2026-11": 0.8760940041102003
   },
   "kaggle": {
-    "as_of": "2026-11-03T09:59:47.538631+00:00",
+    "as_of": "2026-11-03T17:45:45.124464+00:00",
     "basis": "[sourced] Kaggle weekly quota; not physical GPU-hours",
     "refresh_at": "2026-11-07T00:00:00",
     "remaining_hours": 14.27993611111111,
@@ -203,6 +204,17 @@
         }
       ],
       "gpu_spend": 0.3669863063842058,
+      "provider": "runpod",
+      "running": false
+    },
+    "1934538f2943b17b2064fea1": {
+      "events": [
+        {
+          "action": "stop",
+          "at": "2026-11-03T13:16:51Z"
+        }
+      ],
+      "gpu_spend": 0.0,
       "provider": "runpod",
       "running": false
     },
@@ -694,6 +706,17 @@
       "provider": "runpod",
       "running": false
     },
+    "8c7a6f07ea303bbfd0a22197": {
+      "events": [
+        {
+          "action": "stop",
+          "at": "2026-11-03T16:13:24Z"
+        }
+      ],
+      "gpu_spend": 0.0,
+      "provider": "runpod",
+      "running": false
+    },
     "8d389e381bf7346a3baeb76b": {
       "events": [
         {
@@ -798,6 +821,17 @@
         }
       ],
       "gpu_spend": 6.197699397802353,
+      "provider": "runpod",
+      "running": false
+    },
+    "afb0bbaa54b4edee88366e16": {
+      "events": [
+        {
+          "action": "stop",
+          "at": "2026-11-03T14:05:34Z"
+        }
+      ],
+      "gpu_spend": 0.0,
       "provider": "runpod",
       "running": false
     },
@@ -911,6 +945,17 @@
         }
       ],
       "gpu_spend": 0.8793232068419456,
+      "provider": "runpod",
+      "running": false
+    },
+    "bbb062c31813ab08c7247d04": {
+      "events": [
+        {
+          "action": "stop",
+          "at": "2026-11-03T14:43:04Z"
+        }
+      ],
+      "gpu_spend": 0.0,
       "provider": "runpod",
       "running": false
     },
@@ -1119,11 +1164,11 @@
       "status": "not configured"
     },
     "kaggle": {
-      "as_of": "2026-11-03T09:59:47.538631+00:00",
+      "as_of": "2026-11-03T17:45:45.124464+00:00",
       "status": "ok"
     },
     "runpod": {
-      "as_of": "2026-11-03T09:59:47.538631+00:00",
+      "as_of": "2026-11-03T17:45:45.124464+00:00",
       "basis": "[sourced] REST v2; lifecycle hours are [inference]",
       "status": "ok"
     }
