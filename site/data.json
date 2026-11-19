@@ -8,6 +8,10 @@
       {
         "hours": 16.881,
         "label": "A100 SXM 80GB"
+      },
+      {
+        "hours": 1.178,
+        "label": "unknown"
       }
     ],
     "project": [
@@ -16,7 +20,7 @@
         "label": "gemma"
       },
       {
-        "hours": 34.799,
+        "hours": 35.977,
         "label": "gemma4"
       }
     ],
@@ -36,6 +40,10 @@
       {
         "hours": 6.551,
         "label": "US-MD-1"
+      },
+      {
+        "hours": 1.178,
+        "label": "EUR-IS-4"
       }
     ]
   },
@@ -118,14 +126,14 @@
       "value": 1.0
     }
   },
-  "generated_at": "2026-11-19T08:44:31.916559+00:00",
+  "generated_at": "2026-11-19T18:11:31.428536+00:00",
   "kaggle": {
-    "as_of": "2026-11-19T08:44:31.916559+00:00",
+    "as_of": "2026-11-19T18:11:31.428536+00:00",
     "basis": "[sourced] Kaggle weekly quota; not physical GPU-hours",
     "refresh_at": "2026-11-21T00:00:00",
-    "remaining_hours": 14.323548047222221,
+    "remaining_hours": 12.650339686944445,
     "total_hours": 30.0,
-    "used_hours": 15.676451952777779
+    "used_hours": 17.349660313055555
   },
   "limitations": [
     "Spend covers RunPod only; AWS billing is not collected.",
@@ -202,6 +210,14 @@
     },
     {
       "basis": "lifecycle estimate",
+      "gpu": "unknown",
+      "hours": 1.178,
+      "project": "gemma4",
+      "provider": "runpod",
+      "region": "EUR-IS-4"
+    },
+    {
+      "basis": "lifecycle estimate",
       "gpu": "A100 SXM 80GB",
       "hours": 0.807,
       "project": "gemma",
@@ -237,7 +253,7 @@
     },
     {
       "month": "2026-11",
-      "usd": 2.478
+      "usd": 3.4023
     }
   ],
   "schema_version": 1,
@@ -246,22 +262,22 @@
       "status": "not configured"
     },
     "kaggle": {
-      "as_of": "2026-11-19T08:44:31.916559+00:00",
+      "as_of": "2026-11-19T18:11:31.428536+00:00",
       "status": "ok"
     },
     "runpod": {
-      "as_of": "2026-11-19T08:44:31.916559+00:00",
+      "as_of": "2026-11-19T18:11:31.428536+00:00",
       "basis": "[sourced] REST v2; lifecycle hours are [inference]",
       "status": "ok"
     }
   },
   "totals": {
     "carbon_covered_gpu_hours": 60.075,
-    "gpu_hours_estimate": 102.793,
+    "gpu_hours_estimate": 103.971,
     "kgco2e_estimate": 2.2637,
     "resources_without_hours": 67,
-    "running": 0,
-    "runpod_pods_observed": 76,
-    "spend_usd_known": 211.68
+    "running": 1,
+    "runpod_pods_observed": 77,
+    "spend_usd_known": 212.61
   }
 }
