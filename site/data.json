@@ -10,7 +10,7 @@
         "label": "A100 SXM 80GB"
       },
       {
-        "hours": 1.178,
+        "hours": 2.397,
         "label": "unknown"
       }
     ],
@@ -20,7 +20,7 @@
         "label": "gemma"
       },
       {
-        "hours": 35.977,
+        "hours": 37.196,
         "label": "gemma4"
       }
     ],
@@ -42,7 +42,7 @@
         "label": "US-MD-1"
       },
       {
-        "hours": 1.178,
+        "hours": 2.397,
         "label": "EUR-IS-4"
       }
     ]
@@ -126,14 +126,14 @@
       "value": 1.0
     }
   },
-  "generated_at": "2026-11-19T18:11:31.428536+00:00",
+  "generated_at": "2026-11-20T00:53:31.617134+00:00",
   "kaggle": {
-    "as_of": "2026-11-19T18:11:31.428536+00:00",
+    "as_of": "2026-11-20T00:53:31.617134+00:00",
     "basis": "[sourced] Kaggle weekly quota; not physical GPU-hours",
     "refresh_at": "2026-11-21T00:00:00",
-    "remaining_hours": 12.650339686944445,
+    "remaining_hours": 10.478716102777778,
     "total_hours": 30.0,
-    "used_hours": 17.349660313055555
+    "used_hours": 19.521283897222222
   },
   "limitations": [
     "Spend covers RunPod only; AWS billing is not collected.",
@@ -202,19 +202,19 @@
     },
     {
       "basis": "lifecycle estimate",
+      "gpu": "unknown",
+      "hours": 2.397,
+      "project": "gemma4",
+      "provider": "runpod",
+      "region": "EUR-IS-4"
+    },
+    {
+      "basis": "lifecycle estimate",
       "gpu": "A100 SXM 80GB",
       "hours": 2.098,
       "project": "gemma",
       "provider": "runpod",
       "region": "unknown"
-    },
-    {
-      "basis": "lifecycle estimate",
-      "gpu": "unknown",
-      "hours": 1.178,
-      "project": "gemma4",
-      "provider": "runpod",
-      "region": "EUR-IS-4"
     },
     {
       "basis": "lifecycle estimate",
@@ -253,7 +253,7 @@
     },
     {
       "month": "2026-11",
-      "usd": 3.4023
+      "usd": 15.2232
     }
   ],
   "schema_version": 1,
@@ -262,22 +262,22 @@
       "status": "not configured"
     },
     "kaggle": {
-      "as_of": "2026-11-19T18:11:31.428536+00:00",
+      "as_of": "2026-11-20T00:53:31.617134+00:00",
       "status": "ok"
     },
     "runpod": {
-      "as_of": "2026-11-19T18:11:31.428536+00:00",
+      "as_of": "2026-11-20T00:53:31.617134+00:00",
       "basis": "[sourced] REST v2; lifecycle hours are [inference]",
       "status": "ok"
     }
   },
   "totals": {
     "carbon_covered_gpu_hours": 60.075,
-    "gpu_hours_estimate": 103.971,
+    "gpu_hours_estimate": 105.19,
     "kgco2e_estimate": 2.2637,
     "resources_without_hours": 67,
-    "running": 1,
+    "running": 0,
     "runpod_pods_observed": 77,
-    "spend_usd_known": 212.61
+    "spend_usd_known": 224.43
   }
 }
