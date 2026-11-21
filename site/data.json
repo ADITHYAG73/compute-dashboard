@@ -126,14 +126,14 @@
       "value": 1.0
     }
   },
-  "generated_at": "2026-11-20T23:19:46.079536+00:00",
+  "generated_at": "2026-11-21T04:15:52.597526+00:00",
   "kaggle": {
-    "as_of": "2026-11-20T23:19:46.079536+00:00",
+    "as_of": "2026-11-21T04:15:52.597526+00:00",
     "basis": "[sourced] Kaggle weekly quota; not physical GPU-hours",
-    "refresh_at": "2026-11-21T00:00:00",
-    "remaining_hours": 10.478716102777778,
+    "refresh_at": "2026-11-28T00:00:00",
+    "remaining_hours": 30.0,
     "total_hours": 30.0,
-    "used_hours": 19.521283897222222
+    "used_hours": 0.0
   },
   "limitations": [
     "Spend covers RunPod only; AWS billing is not collected.",
@@ -262,11 +262,11 @@
       "status": "not configured"
     },
     "kaggle": {
-      "as_of": "2026-11-20T23:19:46.079536+00:00",
+      "as_of": "2026-11-21T04:15:52.597526+00:00",
       "status": "ok"
     },
     "runpod": {
-      "as_of": "2026-11-20T23:19:46.079536+00:00",
+      "as_of": "2026-11-21T04:15:52.597526+00:00",
       "basis": "[sourced] REST v2; lifecycle hours are [inference]",
       "status": "ok"
     }
