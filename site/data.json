@@ -10,7 +10,7 @@
         "label": "A100 SXM 80GB"
       },
       {
-        "hours": 2.397,
+        "hours": 2.422,
         "label": "unknown"
       }
     ],
@@ -22,6 +22,10 @@
       {
         "hours": 37.196,
         "label": "gemma4"
+      },
+      {
+        "hours": 0.025,
+        "label": "unknown"
       }
     ],
     "region": [
@@ -44,6 +48,10 @@
       {
         "hours": 2.397,
         "label": "EUR-IS-4"
+      },
+      {
+        "hours": 0.025,
+        "label": "EU-SE-1"
       }
     ]
   },
@@ -126,9 +134,9 @@
       "value": 1.0
     }
   },
-  "generated_at": "2026-11-22T07:24:34.663874+00:00",
+  "generated_at": "2026-11-22T15:38:27.895462+00:00",
   "kaggle": {
-    "as_of": "2026-11-22T07:24:34.663874+00:00",
+    "as_of": "2026-11-22T15:38:27.895462+00:00",
     "basis": "[sourced] Kaggle weekly quota; not physical GPU-hours",
     "refresh_at": "2026-11-28T00:00:00",
     "remaining_hours": 30.0,
@@ -262,22 +270,22 @@
       "status": "not configured"
     },
     "kaggle": {
-      "as_of": "2026-11-22T07:24:34.663874+00:00",
+      "as_of": "2026-11-22T15:38:27.895462+00:00",
       "status": "ok"
     },
     "runpod": {
-      "as_of": "2026-11-22T07:24:34.663874+00:00",
+      "as_of": "2026-11-22T15:38:27.895462+00:00",
       "basis": "[sourced] REST v2; lifecycle hours are [inference]",
       "status": "ok"
     }
   },
   "totals": {
     "carbon_covered_gpu_hours": 60.075,
-    "gpu_hours_estimate": 105.19,
+    "gpu_hours_estimate": 105.214,
     "kgco2e_estimate": 2.2637,
     "resources_without_hours": 67,
-    "running": 0,
-    "runpod_pods_observed": 77,
+    "running": 1,
+    "runpod_pods_observed": 78,
     "spend_usd_known": 224.43
   }
 }

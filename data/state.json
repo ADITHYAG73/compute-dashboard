@@ -9,7 +9,7 @@
     "2026-11": 15.223185352835571
   },
   "kaggle": {
-    "as_of": "2026-11-22T07:24:34.663874+00:00",
+    "as_of": "2026-11-22T15:38:27.895462+00:00",
     "basis": "[sourced] Kaggle weekly quota; not physical GPU-hours",
     "refresh_at": "2026-11-28T00:00:00",
     "remaining_hours": 30.0,
@@ -876,6 +876,25 @@
       "provider": "runpod",
       "running": false
     },
+    "add95db22a1dbacf0867df31": {
+      "events": [
+        {
+          "action": "start",
+          "at": "2026-11-22T15:36:59.39Z"
+        },
+        {
+          "action": "start",
+          "at": "2026-11-22T15:36:59Z"
+        }
+      ],
+      "gpu_count": 1,
+      "gpu_spend": 0,
+      "last_seen_running": "2026-11-22T15:38:27.895462+00:00",
+      "project": "unknown",
+      "provider": "runpod",
+      "region": "EU-SE-1",
+      "running": true
+    },
     "afb0bbaa54b4edee88366e16": {
       "events": [
         {
@@ -1227,11 +1246,11 @@
       "status": "not configured"
     },
     "kaggle": {
-      "as_of": "2026-11-22T07:24:34.663874+00:00",
+      "as_of": "2026-11-22T15:38:27.895462+00:00",
       "status": "ok"
     },
     "runpod": {
-      "as_of": "2026-11-22T07:24:34.663874+00:00",
+      "as_of": "2026-11-22T15:38:27.895462+00:00",
       "basis": "[sourced] REST v2; lifecycle hours are [inference]",
       "status": "ok"
     }
