@@ -134,9 +134,9 @@
       "value": 1.0
     }
   },
-  "generated_at": "2026-11-26T04:20:53.468055+00:00",
+  "generated_at": "2026-11-26T14:22:43.260622+00:00",
   "kaggle": {
-    "as_of": "2026-11-26T04:20:53.468055+00:00",
+    "as_of": "2026-11-26T14:22:43.260622+00:00",
     "basis": "[sourced] Kaggle weekly quota; not physical GPU-hours",
     "refresh_at": "2026-11-28T00:00:00",
     "remaining_hours": 30.0,
@@ -261,7 +261,7 @@
     },
     {
       "month": "2026-11",
-      "usd": 16.0504
+      "usd": 35.2729
     }
   ],
   "schema_version": 1,
@@ -270,11 +270,11 @@
       "status": "not configured"
     },
     "kaggle": {
-      "as_of": "2026-11-26T04:20:53.468055+00:00",
+      "as_of": "2026-11-26T14:22:43.260622+00:00",
       "status": "ok"
     },
     "runpod": {
-      "as_of": "2026-11-26T04:20:53.468055+00:00",
+      "as_of": "2026-11-26T14:22:43.260622+00:00",
       "basis": "[sourced] REST v2; lifecycle hours are [inference]",
       "status": "ok"
     }
@@ -283,9 +283,9 @@
     "carbon_covered_gpu_hours": 60.075,
     "gpu_hours_estimate": 105.222,
     "kgco2e_estimate": 2.2637,
-    "resources_without_hours": 69,
+    "resources_without_hours": 71,
     "running": 0,
-    "runpod_pods_observed": 80,
-    "spend_usd_known": 225.25
+    "runpod_pods_observed": 82,
+    "spend_usd_known": 244.48
   }
 }
